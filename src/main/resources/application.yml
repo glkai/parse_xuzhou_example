@@ -1,0 +1,38 @@
+spring:
+  elasticsearch:
+#    uris: http://0.0.0.0:9200
+#    username: gaoliukai
+#    password: 325311
+    uris: http://192.168.30.66:9200
+    username: dev_glk
+    password: 48wkMUfD6h$fLYgc
+
+
+elasticsearch:
+  scheme: http
+#  address: 0.0.0.0:9200
+#  username: gaoliukai
+#  password: 325311
+  address: 192.168.30.66:9200
+  #192.168.30.92:9200,192.168.30.93:9200,192.168.30.151:9200,192.168.30.201:9200
+  username: dev_glk
+  password: 48wkMUfD6h$fLYgc
+  maxConnectNum: 100
+  maxConnectPerRoute: 100
+  connectionRequestTimeout: 500000
+  devIndexName: case_parse_32
+  myIndexName: case_parse_temp
+  myIndexName2: case_parse_tmp
+  myIndexName3: case_parse_3
+  connectTimeout: 500000
+  socketTimeout: 1000000
+
+
+controller:
+  url: https://shilv-apigateway.aegis-info.com/api/parsers/DocumentParser
+
+directory:
+  path: C:\Users\17566\Desktop\徐州案由端口解析结果TXT文档
+
+
+
